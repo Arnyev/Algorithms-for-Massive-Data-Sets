@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms-for-Massive-Data-Sets", "Algorithms-for-Massive-Data-Sets.csproj", "{632B2E6A-C4BB-45DF-BC22-74D38A0F4738}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{632B2E6A-C4BB-45DF-BC22-74D38A0F4738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{632B2E6A-C4BB-45DF-BC22-74D38A0F4738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{632B2E6A-C4BB-45DF-BC22-74D38A0F4738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{632B2E6A-C4BB-45DF-BC22-74D38A0F4738}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A777D88A-2E07-4BF0-B8A6-097A7B5479C5}
+	EndGlobalSection
+EndGlobal
