@@ -30,7 +30,7 @@ namespace Algs
 			if (children.Count == 0)
 				Rarray[subwordStartIndex] = arrayIndex;
 
-			Earray[arrayIndex] = endIndex - subwordStartIndex;
+			Earray[arrayIndex] = endIndex - subwordStartIndex + 1;
 			Aarray[arrayIndex] = depth;
 
 			foreach (var child in children)
@@ -38,7 +38,7 @@ namespace Algs
 				arrayIndex = child.Value.WriteToArrays(Earray, arrayIndex + 1, Aarray, Rarray);
 
 				arrayIndex++;
-				Earray[arrayIndex] = endIndex - subwordStartIndex;
+				Earray[arrayIndex] = endIndex - subwordStartIndex + 1;
 				Aarray[arrayIndex] = depth;
 			}
 
