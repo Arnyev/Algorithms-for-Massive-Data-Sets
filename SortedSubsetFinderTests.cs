@@ -35,7 +35,9 @@ namespace Algs
 				for (int test = 0; test < testsPerArray; test++)
 				{
 					int i = rand.Next() % testArrayLength;
-					int count = rand.Next() % (testArrayLength - i);
+					int count = rand.Next() % (testArrayLength - i+1);
+					if (count == 0)
+						continue;
 					int j = i + count - 1;
 
 					long mslinqStart = sw.ElapsedMilliseconds;

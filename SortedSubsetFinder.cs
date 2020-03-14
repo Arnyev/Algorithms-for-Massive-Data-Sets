@@ -56,7 +56,7 @@ namespace Algs
 			int log = (int)Math.Ceiling(Math.Log(count, 2));
 
 			if (log == subArrays.Length)
-				return FilterByIndex(subArrays[0][0], indexArrays[0][0], i, j);
+				return FilterByIndex(subArrays[0][0], indexArrays[0][0], i, j);//all elements
 
 			int arraySize = 1 << log;
 			int midIndex = j - j % arraySize;
